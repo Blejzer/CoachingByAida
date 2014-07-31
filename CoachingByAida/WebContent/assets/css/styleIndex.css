@@ -141,6 +141,12 @@ a:focus {
 /*
 * Ovdje pocinje preradjeni dio za navigaciju
 */
+.different {color:#75aadb}
+.different:hover,
+.different:focus {
+  color: #0c86b6;
+  font-weight:bold;
+}
 .navbar-default .navbar-subnav {
   padding-top: 0px;
   margin-top: 0px;
@@ -203,16 +209,16 @@ a:focus {
 }
 #home h1 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   font-size: 60px;
 }
 #home h2 {
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 #home h3 {
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #home a { margin: 0 5px }
 
@@ -440,3 +446,19 @@ margin: auto;
   #part3 .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
 }
+
+.slikaholder {
+	position:relative;
+	width: 300px;
+	height: 10px;
+	text-align:right
+}
+.slika {
+	position:absolute;
+	border:none;
+	margin: -120px 0px 0px 0px;
+	width: 55%;
+	height: auto
+}
+
+
