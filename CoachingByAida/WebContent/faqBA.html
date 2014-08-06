@@ -15,7 +15,7 @@
 	href='http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff'
 	type='text/css'>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/styleIndex.css">
+<link rel="stylesheet" href="assets/css/styleIndexBA.css">
 <link rel="stylesheet" href="assets/css/animate.min.css">
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <!--[if lt IE 9]>
@@ -36,6 +36,9 @@
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/randomization.js"></script>
 	<script type="text/javascript">
+		$.get('headerBA.html', function(data) {
+			$('#home').html(data);
+		});
 		$.get('footerBA.html', function(data) {
 			$('#footer').html(data);
 		});
@@ -43,23 +46,7 @@
 	<div class="loader">
 		<div class="fading-line"></div>
 	</div>
-	<section id="home" class="page">
-		<div class="container">
-			<div class=" text-center">
-				<div class="row">
-					<div class="col-lg-12">
-						<h3 class="animated showing" data-animation="fadeIn"
-							data-delay="300">Savjetnik za li&#269;ni razvoj i konsultant
-							za razvoj vje&#353;tina (ruko)vo&#273;enja</h3>
-						<h1 class="animated hiding vibes" data-animation="fadeInDown"
-							data-delay="300">coaching by Aida</h1>
-						<h3 class="animated hiding" data-animation="fadeIn"
-							data-delay="600">- Most izme&#273;u ciljeva i ostvarenja -</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<section id="home" class="page"></section>
 	<section id="home1" class="stranica">
 		<div class="container">
 			<div class="content cover text-center"></div>
@@ -117,14 +104,14 @@
 		<div class="container">
 			<div class="content text-left">
 				<div class="heading text-center">
-					<h2>Na koji na&#269;in se coaching razlikuje od ostalih uslužnih
-						zanimanja?</h2>
+					<h2>Na koji na&#269;in se coaching razlikuje od ostalih
+						suportivnih uslužnih zanimanja?</h2>
 					<div class="border"></div>
 					<p class="p-stiliziran">Coaching se usredoto&#269;uje na
 						postavljanje ciljeva, stvaraju&#263;i rezultate i upravljanje
-						promjenama. Ponekad je od pomo&#263;i, u razumjevanju coachinga, znati
-						na koji na&#269;in se coaching razlikuje od drugih suportivnih uslužnih
-						zanimanja.</p>
+						promjenama. Ponekad je od pomo&#263;i, u razumjevanju coachinga,
+						znati na koji na&#269;in se coaching razlikuje od drugih
+						suportivnih uslužnih zanimanja.</p>
 
 				</div>
 				<div class="row">
@@ -134,15 +121,16 @@
 							<li>Terapija se bavi iscjeljivanjem boli, disfunkcijom, i
 								sukobom unutar pojedinca ili u vezama. Naglasak je &#269;esto na
 								rješavanju problema, poboljšanju sveukupnog psihi&#269;kog
-								funkcioniranja i nošenju sa realnoš&#263;u na emotivno zdrav na&#269;in.
-								Coaching, s druge strane, podržava osobni i profesionalni razvoj
-								temeljen na samoiniciranoj promjeni u potrazi za odre&#273;enim
-								djelotvornim ishodom.</li>
-							<li>Mentorstvo: mentor je profesionalac koji obezbje&#273;uje
-								mudrost i vo&#273;enje na osnovu vlastitog iskustva.<br>Mentorstvo
-								može uklju&#269;ivati savjetovanje, i coaching. Proces coachinga ne
-								obuhvata savjetovanje, i usredoto&#269;uje se, umjesto na pojedince
-								ili na skupine, na postavljanje i dostizanje njihovih ciljeva.
+								funkcioniranja i nošenju sa realnoš&#263;u na emotivno zdrav
+								na&#269;in. Coaching, s druge strane, podržava osobni i
+								profesionalni razvoj temeljen na samoiniciranoj promjeni u
+								potrazi za odre&#273;enim djelotvornim ishodom.</li>
+							<li>Mentorstvo: mentor je profesionalac koji
+								obezbje&#273;uje mudrost i vo&#273;enje na osnovu vlastitog
+								iskustva.<br>Mentorstvo može uklju&#269;ivati savjetovanje,
+								i coaching. Proces coachinga ne obuhvata savjetovanje, i
+								usredoto&#269;uje se, umjesto na pojedince ili na skupine, na
+								postavljanje i dostizanje njihovih ciljeva.
 							</li>
 						</ul>
 					</div>
@@ -161,15 +149,16 @@
 					<div class="col-lg-12 part animated hiding"
 						data-animation="fadeInUp" data-delay="300">
 						<p class="p-stiliziran">
-							<br>Coaching obi&#269;no po&#269;inje s razgovorom (bilo licem u lice
-							ili putem skypea / telefona) s ciljem procjene pojedin&#269;evih ili
-							poslovnih trenutnih mogu&#263;nosti i izazova, odre&#273;ivanjem trajanja
-							coachinga, utvr&#273;ivanjem prioriteta za djelovanje i za
-							uspostavljanje odre&#273;enih željenih rezultata. Naknadne sesije se
-							mogu provoditi osobno ili preko telefona, i za svaku sesiju je
-							prethodno utvr&#273;eno njeno trajanje. Izme&#273;u rasporeda sesija, od
-							pojedinca se može tražiti da ispuni odre&#273;ene aktivnosti, koje
-							podržavaju ostvarenje prioritetnih ciljeva.
+							<br>Coaching obi&#269;no po&#269;inje s razgovorom (bilo
+							licem u lice ili putem skypea / telefona) s ciljem procjene
+							pojedin&#269;evih ili poslovnih trenutnih mogu&#263;nosti i
+							izazova, odre&#273;ivanjem trajanja coachinga, utvr&#273;ivanjem
+							prioriteta za djelovanje i za uspostavljanje odre&#273;enih
+							željenih rezultata. Naknadne sesije se mogu provoditi osobno ili
+							preko telefona, i za svaku sesiju je prethodno utvr&#273;eno
+							njeno trajanje. Izme&#273;u rasporeda sesija, od pojedinca se
+							može tražiti da ispuni odre&#273;ene aktivnosti, koje podržavaju
+							ostvarenje prioritetnih ciljeva.
 						</p>
 					</div>
 				</div>
@@ -189,8 +178,8 @@
 
 						<p class="p-stiliziran">
 							<br>Trajanje coaching partnerstva ovisi od pojedinca ili od
-							potreba i želja tima. Za odre&#273;ene tipove fokusiranog coachinga,
-							period coachinga može trajati od tri do šest mjeseci.
+							potreba i želja tima. Za odre&#273;ene tipove fokusiranog
+							coachinga, period coachinga može trajati od tri do šest mjeseci.
 						</p>
 					</div>
 				</div>

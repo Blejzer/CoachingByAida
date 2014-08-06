@@ -233,7 +233,8 @@ a:hover,a:focus {
 * Ovdje zavrsava preradjeni dio za navigaciju
 */
 .stranica {
-	overflow: hidden
+	overflow: hidden;
+	padding: 60px 0 0
 }
 
 .stranica .content {
@@ -297,7 +298,8 @@ a:hover,a:focus {
 #home {
 	padding: 0;
 	color: #000;
-	background-color: #75aadb;
+	background-image: url('../img/bgd.jpg');
+	/* background-color: #75aadb; */
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -557,11 +559,41 @@ div.c-wrapper {
 	margin-bottom: 0
 }
 
+/* pozicioniranje slike unutar diva i njeno dimenzioniranje u razlicitim formatima.*/
+#wrap {
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 1px;
+}
+
+#wrap img.fake {
+	float: right;
+	visibility: hidden;
+	width: auto;
+}
+
+#img_wrap {
+	position: absolute;
+	min-width: 100%;
+	top: 0;
+	right: 0;
+}
+
+#img_wrap img.normal {
+	padding-top: 15px;
+	padding-right: 15px;
+	width: 100%;
+}
+
+/* KRAJ pozicioniranja slike unutar diva i njeno dimenzioniranje u razlicitim formatima.*/
+
 /* Responsive style */
 @media screen and (max-width: 1024px) {
 	#img_wrap img.normal {
-		padding-top: 15px;
-		padding-right: 15px;
+		padding-top: 5px;
+		padding-right: 0;
+		width: 90%
 	}
 }
 
@@ -570,7 +602,9 @@ div.c-wrapper {
 		width: 50%
 	}
 	#img_wrap img.normal {
-		padding-top: 15px;
+		padding-top: 5px;
+		padding-right: 0;
+		width: 100%
 	}
 }
 
@@ -583,6 +617,8 @@ div.c-wrapper {
 	}
 	#img_wrap img.normal {
 		padding-top: 5px;
+		padding-right: 0;
+		width: 100%
 	}
 }
 
@@ -600,36 +636,11 @@ div.c-wrapper {
 		float: center;
 	}
 	#img_wrap img.normal {
-		padding-top: 15px;
+		padding: 0;
+		width: 100%
 	}
 }
 
-/* pozicioniranje slike unutar diva i njeno dimenzioniranje u razlicitim formatima.*/
-#wrap {
-	position: relative;
-	float: right;
-	width: 25%;
-	height: 1px;
-}
-
-#wrap img.fake {
-	float: right;
-	visibility: hidden;
-	width: auto;
-}
-
-#img_wrap {
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-#img_wrap img.normal {
-	width: 90%;
-	padding-top: 25px;
-}
-
-/* KRAJ pozicioniranja slike unutar diva i njeno dimenzioniranje u razlicitim formatima.*/
 
 /* Podesavanje fontova.*/
 .vibes {
@@ -638,7 +649,7 @@ div.c-wrapper {
 
 .vibesM {
 	font-family: 'Herr Von Muellerhoff', cursive;
-	font-size: 28px;
+	font-size: 32px;
 }
 
 .vibesL {
