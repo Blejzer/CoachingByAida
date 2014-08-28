@@ -4,52 +4,52 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- 					edited by Nikola Kujaca 					 -->
+
 <url>
-  <loc>http://www.linguasto.com/</loc>
-  <lastmod>2014-05-28T08:55:49+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
+  <loc>http://aidascoaching.users.telemach.ba/</loc>
+  <lastmod>2014-08-06T23:04:03+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/german.html</loc>
-  <lastmod>2014-05-28T08:56:01+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <loc>http://aidascoaching.users.telemach.ba/indexBA.html</loc>
+  <lastmod>2014-08-06T22:59:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/hrvatski.html</loc>
-  <lastmod>2014-05-28T08:56:01+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <loc>http://aidascoaching.users.telemach.ba/services.html</loc>
+  <lastmod>2014-08-06T23:31:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/english.html</loc>
-  <lastmod>2014-05-27T15:35:21+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <loc>http://aidascoaching.users.telemach.ba/faq.html</loc>
+  <lastmod>2014-08-06T23:35:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/makedonski.html</loc>
-  <lastmod>2014-05-28T08:56:34+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <loc>http://aidascoaching.users.telemach.ba/index.html</loc>
+  <lastmod>2014-08-06T23:04:03+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/srpski.html</loc>
-  <lastmod>2014-05-27T16:00:21+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <loc>http://aidascoaching.users.telemach.ba/servicesBA.html</loc>
+  <lastmod>2014-08-06T22:59:28+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/prijevod.html</loc>
-  <lastmod>2014-05-28T08:55:49+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+  <loc>http://aidascoaching.users.telemach.ba/faqBA.html</loc>
+  <lastmod>2014-08-06T22:59:21+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.linguasto.com/index.html</loc>
-  <lastmod>2014-05-28T08:55:49+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+  <loc>http://aidascoaching.users.telemach.ba/assets/pdf/The_Cognitive_Style_Inventory-coaching_by_Aida.pdf</loc>
+  <lastmod>2014-08-06T23:00:44+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aidascoaching.users.telemach.ba/assets/pdf/Anketa_Kognitivni_stil-coaching_by_Aida.pdf"</loc>
+  <lastmod>2014-08-06T23:00:44+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 </urlset>

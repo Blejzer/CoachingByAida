@@ -42,49 +42,6 @@ a:hover,a:focus {
 	border-radius: 8px;
 }
 
-.btn {
-	font-size: 12px;
-	font-weight: bold;
-	text-transform: uppercase;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	-webkit-transition: all .2s;
-	-moz-transition: all .2s;
-	-ms-transition: all .2s;
-	transition: all .2s;
-}
-
-.btn-blue {
-	color: #fff;
-	background-color: #0093cf;
-}
-
-.btn-blue:hover,.btn-blue:focus {
-	color: #fff;
-	background-color: #2a3940;
-}
-
-.btn-green {
-	color: #fff;
-	background-color: #71be3c;
-}
-
-.btn-green:hover,.btn-green:focus {
-	color: #fff;
-	background-color: #2a3940;
-}
-
-.btn-dark {
-	color: #fff;
-	background-color: #2a3940;
-}
-
-.btn-dark:hover,.btn-dark:focus {
-	color: #fff;
-	background-color: #2a3940;
-}
-
 .loader {
 	position: fixed;
 	z-index: 100000;
@@ -599,7 +556,7 @@ div.c-wrapper {
 
 @media screen and (max-width: 991px) {
 	#part3 .items li {
-		width: 50%
+		width: 60%
 	}
 	#img_wrap img.normal {
 		padding-top: 5px;
@@ -669,7 +626,7 @@ div.c-wrapper {
 
 /* PDF podesavanja */
 .pdfholder {
-	width: 50%;
+	width: 60%;
 	height: 340px;
 	margin: 0 auto 5px;
 }

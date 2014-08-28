@@ -14,8 +14,8 @@
 <link rel='stylesheet'
 	href='http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff'
 	type='text/css'>
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/styleIndex.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/theme.min.css">
 <link rel="stylesheet" href="assets/css/animate.min.css">
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <!--[if lt IE 9]>
@@ -36,14 +36,17 @@
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/randomization.js"></script>
 	<script type="text/javascript">
-	$.get('header.html', function(data) { $('#home').html(data); });
-	$.get('footer.html', function(data) { $('#footer').html(data); });
+		$.get('header.html', function(data) {
+			$('#home').html(data);
+		});
+		$.get('footer.html', function(data) {
+			$('#footer').html(data);
+		});
 	</script>
 	<div class="loader">
 		<div class="fading-line"></div>
 	</div>
-	<section id="home" class="page">
-	</section>
+	<section id="home" class="page"></section>
 	<section id="home1" class="stranica">
 		<div class="container">
 			<div class="content cover text-center"></div>
@@ -113,7 +116,7 @@
 						people's differences.</p>
 					<h3>
 						<strong>Three Self-ish areas in which you can grow,
-							personally and as a leader: <br>Self-Awareness, Self-Esteem,
+							personally and as a leader: <br>Self-awareness, Self-esteem,
 							Self-efficacy.
 						</strong>
 					</h3>
@@ -122,9 +125,9 @@
 					<div class="col-lg-12 part animated hiding p-stiliziran"
 						data-animation="fadeInUp" data-delay="300">
 						<p>
-							<strong>Self-Awareness</strong> is the ability to be on top of
+							<strong>Self-awareness</strong> is the ability to be on top of
 							the feelings, impulses, and thoughts that run through yourself at
-							any given time. Self-Awareness is the fundamental emotional
+							any given time. Self-awareness is the fundamental emotional
 							competence. It is our guide in fine tuning 'on the job'
 							performance, keeping ourselves motivated, developing good work
 							related social skills, including those essential for leadership
@@ -133,27 +136,27 @@
 							empathy, communication, thinking and learning styles.
 						</p>
 						<p>
-							<strong>Self-Esteem</strong> is a term used in psychology to
+							<strong>Self-esteem</strong> is a term used in psychology to
 							reflect a person's overall emotional evaluation of his or her own
 							worth. Building Self-esteem and assertiveness is probably a lot
 							easier than you think. Find out what your strengths and style are
-							and use them to defend and support your position, and never base
-							your self-esteem on anything external.
+							and use them to support your position never basing your
+							self-esteem on anything external.
 						</p>
 						<p>
 							<strong>Self-efficacy</strong> is the measure of one's own
 							ability to complete tasks and reach goals.
 						</p>
 						<p>"..But he who knows, and knows that he knows, is a wise man
-							- follow him." (= Conscious Competence) In order to develop your
-							self-efficacy, you should know more about motivation, goals,
-							stress and time management. But above all to develop
-							self-efficacy you need to integrate the principle of
-							self-responsibility. The responsibility for how you respond to
-							life around you, and therefore what comes back to you, lies in
-							the choice of your perception. Your perception is based on your
-							beliefs. If you believe you can't, then guess what, you won't!
-							This fatal belief limits your capacity expansion.</p>
+							- follow him." (Confucius)</p>
+						<p>In order to develop your self-efficacy, you should know
+							more about motivation, goals, stress and time management. But
+							above all to develop self-efficacy you need to integrate the
+							principle of self-responsibility. The responsibility for how you
+							respond to life around you, and therefore what comes back to you,
+							lies in the choice of your perception. Your perception is based
+							on your beliefs. If you believe you can't, then guess what, you
+							won't! This fatal belief limits your capacity expansion.</p>
 					</div>
 				</div>
 			</div>
@@ -165,15 +168,17 @@
 				<div class="heading text-center">
 					<h2>Individual Assessment Tools</h2>
 					<div class="border"></div>
-					<p>What would you like to know about yourself? Personality?,
-						Your team role type? …Your management style?...</p>
+					<p>What would you like to know about yourself? What would you
+						like to know about your Personality? What role do you often plan
+						in a team? What is your most domineering management style and
+						when?</p>
 					<div class="p-stiliziran">
 						<p>To determine the preferences of your personality type, and
-							to discover what function within yourself you should develop,
-							'just as a rough indicator', fill in the Cognitive style
-							Inventory which will give you approximately answer to the
-							question of what your four-letter code is according to the MBTI
-							(Myers Briggs Type Indicator *).</p>
+							to discover what function within yourself you should and could
+							develop, just as a rough indicator, fill in the Cognitive style
+							Inventory which will give you approximate answer to the question
+							of what your four-letter code is according to the MBTI (Myers
+							Briggs Type Indicator*).</p>
 						<p>
 							(After determining your 4 Type letters, you can jump to a number
 							of web sites such as <a
@@ -426,44 +431,64 @@
 							<a href="#">Training for organizations</a>
 						</h3>
 						<p>The Courses listed below form an overview of the training
-							to benefit organisations and businesses. All of the courses will
-							be fully tailored to your organisation. The style of training and
-							coaching is highly practical, linking theory into action and
-							practice, so that you can apply the learning immediately. This
+							to benefit organizations and businesses. All of the courses will
+							be fully tailored to the needs of your organization. The style of
+							training and coaching is highly practical, linking theory into
+							action, so that you can apply the learning immediately. This
 							training will help you to enhance your confidence as a leader, by
-							giving you the skills, tools and techniques to develop your team,
+							giving you the skills, tools and techniques to develop your team
 							and its high performance to compete with the best. Training
-							modules listed down below can be arranged, depending on what you
-							select, in duration of one to three days.</p>
+							modules listed below can be arranged, depending on what you
+							select and need, in duration of a few hours to three days.</p>
 						<p>
-							<strong>MODUL 1 COMMUNICATION:</strong> personality,
+							<strong>MODUL 1 LEADERSHIP:</strong> communication, change
+							management, delegation and empowerment, leadership skills,
+							teambuilding, presentation skills
+						</p>
+						<p>
+							<strong>MODUL 2 COMMUNICATION:</strong> personality,
 							communication, emotional intelligence, learning and thinking
 							styles, leadership styles and models
 						</p>
 						<p>
-							<strong>MODUL 2 TEAMBUILDING:</strong> team roles, inter-group
+							<strong>MODUL 3 PERSONAL DEVELOPMENT:</strong> stress and time
+							management, assertiveness, maximizing your potential
+						</p>
+						<p>
+							<strong>MODUL 4 TEAMBUILDING:</strong> team roles, inter-group
 							and interpersonal development, employee/employer relationships
 						</p>
 						<p>
-							<strong>MODUL 3 CHANGE MANAGAMENT:</strong> empathy, virtuous
+							<strong>MODUL 5 CHANGE MANAGAMENT:</strong> empathy, virtuous
 							circle, impact of external references
 						</p>
 						<p>
-							<strong>MODUL 4 DELEGATION</strong>
+							<strong>MODUL 6 DELEGATION:</strong> leadership tips, goal
+							planning, the steps of successful delegation, the levels of
+							delegation freedom
 						</p>
 						<p>
-							<strong>MODUL 5 SELF-ESTEEM:</strong> assertiveness
+							<strong>MODUL 7 SELF-ESTEEM:</strong> assertiveness, resolving
+							conflict, what is and how to build your self esteem
 						</p>
 						<p>
-							<strong>MODUL 6 SELF-EFICIENCY:</strong> motivation, goal, stress
+							<strong>MODUL 8 SELF-EFICIENCY:</strong> motivation, goal, stress
 							and time management
+						</p>
+						<p>
+							<strong>MODUL 9 STRATEGIC MANAGEMENT:</strong> strategy
+							implementation and realization
+						</p>
+						<p>
+							<strong>MODUL 10 HUMAN RESOURCE MANAGEMENT:</strong> developing
+							people, performance evaluation, exit interviews, job interviews,
+							job descriptions
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer id="footer">
-	</footer>
+	<footer id="footer"> </footer>
 </body>
 </html>
